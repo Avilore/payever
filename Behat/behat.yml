@@ -1,0 +1,10 @@
+default:
+    context:
+        parameters:
+            #wd_host: localhost:4445/wd/hub #use this if your using tesstingbot-tunnel
+            wd_host: hub.testingbot.com:4444/wd/hub
+            key: YOURKEYHERE
+            secret: YOURSECRETHERE
+    extensions:
+        Behat\MinkExtension\Extension:
+            base_url: https://sandbox.payever.de
