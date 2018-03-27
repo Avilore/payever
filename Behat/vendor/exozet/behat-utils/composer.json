@@ -1,0 +1,20 @@
+{
+  "name": "exozet/behat-utils",
+  "description": "The `exozet/behat-utils` provides some traits for easier api testing with behat and mink.",
+  "keywords": [
+    "behat",
+    "mink",
+    "bdd",
+    "gherkin"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "require": {},
+  "autoload": {
+    "psr-4": { "Exozet\\Behat\\Utils\\Base\\": "src" }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "behat/gherkin": "*"
+  }
+}
