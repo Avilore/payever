@@ -37,5 +37,3 @@ Feature:
       When I am on "/pay/03b7e0325cbf6b2c253142d0e0547348/shipping/billing"
       And I press "Continue-Payment method"
       Then I should see text matching "Success payment"
-
-      
